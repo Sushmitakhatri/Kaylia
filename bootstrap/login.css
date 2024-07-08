@@ -1,0 +1,21 @@
+.sub{
+    margin-top: 30px;
+    margin-right: 60px;
+    border: 1px solid #F5EEE7;
+    border-radius: 40px;
+    height: 126px;
+    width: 698px;
+    padding: 46px 44px;
+    background-color: #F5EEE7;
+
+}
+.button{
+    margin-top: 30px;
+    margin-left: 220px;
+    border: 1px solid #DCCDBC;
+    border-radius: 40px;
+    height: 99px;
+    width: 266px;
+    padding: 32px 71px;
+    background-color: #DCCDBC;
+}

@@ -5,11 +5,7 @@
     align-items: center;
   }
 
-.navtext{
+  .navtext{
     display:flex;
     gap: 32px;
   }
-  
-.nav {
-    margin: 60px;
-}

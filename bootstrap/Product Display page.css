@@ -1,0 +1,32 @@
+.flexbox{
+    display:flex;
+    justify-content: space-between;
+    margin:60px;
+    align-items: center;
+  }
+
+.navtext{
+    display:flex;
+    gap: 32px;
+  }
+.sub{
+    border: 1px solid #F5EEE7;
+    margin-top: 30px;
+    margin-left: 60px;
+    border-radius: 40px;
+    height: 142px;
+    width: 1225px;
+    padding: 52px 58px;
+    background-color: #F5EEE7;
+
+}
+.button{
+    margin-top: 30px;
+    margin-left: 587px;
+    border: 1px solid #DCCDBC;
+    border-radius: 40px;
+    height: 99px;
+    width: 266px;
+    padding: 32px 71px;
+    background-color: #DCCDBC;
+}

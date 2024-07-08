@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="add.css" rel="stylesheet">
+</head>
+<body>
+    <style>
+        .flexbox{
+    display:flex;
+    justify-content: space-between;
+    margin:60px;
+    align-items: center;
+  }
+
+.navtext{
+    display:flex;
+    gap: 32px;
+  }
+    </style>
+
+    <div class="flexbox">
+        <div class="mainlogo">
+            <img src="images/logo.png" alt="image">
+        </div>
+  
+        <div class="navtext">
+            <a style="text-decoration: none; color: black;  " href="index.html">Home</a>
+            <a style="text-decoration: none; color: black;" href="Product Display page.html">Products</a>
+            <a style="text-decoration: none; color: black" href="NewArrivalsPage.html">New Arrival</a>
+            <a style="text-decoration: none; color: #A88257;" href="Add to cart.html">Cart(0)</a>
+            
+        </div>
+        </div>
+
+    <div class="container mt-5">
+        <div class="cart-status">
+            Your cart is currently empty
+            <span>add more $50.00 for free shipping</span>
+        </div>
+
+        <hr style="border-width: 10px; border-color: #F5EEE7;">
+
+        <h5 style="display: flex; justify-content: center; margin-top: 100px;">Complete your skincare Routine</h5>
+        <div class="cart-product row" style="background-color: #F5EEE7;">
+            <div class="col-md-3 col-sm-6">
+                <img src="images/Bath and body.png" alt="Bath and Body Works Lotion">
+            </div>
+            <div class="col-md-6 col-sm-6 cart-product-info">
+                <h5>Bath and Body Works Lotion</h5>
+            </div>
+            <div class="col-md-3 col-sm-12 cart-product-price">
+                <button style="background-color: #DCCDBC; border-color: #DCCDBC;" class="btn btn-light">$44.00 - ADD</button>
+            </div>
+        </div>
+        <div class="cart-total">
+            <div>subtotal <span>$0.00</span></div>
+            <div><small>*shipping, taxes and discount calculated at checkout.</small></div>
+        </div>
+        <div class="cart-checkout">
+            <a href="ShippingDetails.html"><button style="background-color: #F5EEE7; border-color: #F5EEE7;" class="btn btn-light">CHECKOUT</button></a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
